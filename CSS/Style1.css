@@ -1,0 +1,226 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 8, 2021, 1:45:10 PM
+    Author     : OS
+*/
+/*trangchu*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+html{
+  font-family: 'lato',sans-serif;
+  font-size: 20px;
+  background-color: #424242;
+  text-rendering:optimizeLegibility;
+}
+/*--------------------------*/
+/*-------------header-----------------*/
+header{
+  background: -webkit-gradient(linear, left top, right top, from(hsl(0, 0%, 100%)) , to(#070707));
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  background-attachment: fixed;
+  /*view height*/
+
+}
+
+.logo{
+  width: 175px;
+  float: left;
+  
+}
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 25px;
+  
+}
+.main-nav li a{
+  text-decoration: none;
+  font-size: 110%;  
+  font-weight: 700;
+  transition: border-buttom 0.5s ;
+  padding: 5px 0;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+  border-bottom: 5px solid #3778f1 ;
+}
+
+.main-nav li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  width: 1140px;
+  margin: 0 auto;
+  text-align: left;
+  
+}
+.row h2{
+  text-align: center;
+}
+.heading-mail-box{
+  position: absolute ;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+ 
+}
+
+/*---------------------------------kttttttttt----------------------------------------*/
+/*-------------------------resusebatle-------------------------*/
+h1,h2{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h2{
+  
+  color: gold;
+  font-size: 100%;
+  font-weight: 700;
+  text-align: center;
+}
+h2:after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color:#f0de77 ;
+  margin: 0 auto;
+}
+h1{
+  
+  font-size: 200%;
+  font-weight: 700;
+  
+  word-spacing: 10;
+  color: aqua;
+}
+/*-----------------------------------------------------------*/
+  img{
+      display: inline-block;
+      background-image: unset;
+  }
+  
+    
+      
+      
+  
+  body{
+    background-color: black;
+     background-size: cover;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    
+  }
+  
+  section {
+    text-align: center;
+
+  }
+  article {
+    background-color: #262626;
+    display: inline-block;
+    width: 15%;
+    height: 25%;
+    size: 20px;
+    margin: 50px 20px 0 20px;
+    border: 5px solid #424242;
+    color: #a1a1a1;
+  }
+  article h1 {
+    font-size: 250%;
+    color: rgb(125, 29, 214)  ;
+  }
+  article .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #27dcc4;
+  }
+  article ul {
+    padding: 50px;
+  }
+  article button {
+    background-color: #27dcc4;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+  }
+  article ul li {
+    list-style-type: none;
+    padding: 5px 0;
+  }
+  article button:hover {
+    background-color: #acacac;
+  } 
+  .demuc {
+    text-align: center;
+    height: 20%;
+    background-color:#FFFFFF;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.giohang {
+  text-shadow: #27dcc4;
+text-align:end;
+display:inline-block;
+}
+.ending{
+  background-color: rgb(59, 48, 124);
+  font-size:15px ;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  
+}
+.trangchu{
+  color: rgb(250, 249, 249);
+}
+.NEWS{
+  background-image:url(http://docs.portal.danang.gov.vn/images/images/Nam%202020/Thang%2008/5-8%20DN%202.jpg);
+  
+}
+.NEWS h1{
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.about-section q{
+  display: none;
+ 
+  
+}
+.ending article {
+  background-color: rgb(59, 48, 124);
+  text-align: center;
+  border: 5px solid rgb(59, 48, 124);
+  
+}
+/*end web */
+.ending p{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.icon{
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+/*trangchu*/
